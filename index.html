@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Home Page</title>
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-app">
+      <nav class="nav-container">
+        <img class="home-logo-night" id ="home-logo-light" src="./images/alarado-icon-homepage.svg" alt="alarado-icon-homepage">
+        <img  class="home-logo-light" id="home-logo-night" src="./images/alarado-icon-homepage-dark.svg" alt="alarado-icon-homepage-dark">
+            <ul class="poppins-semibold">
+                <li>About us</li>
+                <li>Product</li>
+                <li>Resource</li>
+                <li>Contact</li>
+            </ul>
+           
+          <div class="container-mode theme-toggle-action" >
+            <div class="switch">
+                <div class="moon">
+                    <img src="./images/Moon_fill_light.svg" alt="Moon_fill_light" id="moon-img">
+                </div>
+                <div class="moon_dark">
+                    <img src="./images/Moon_fill.svg" alt="Moon_fill_light" id="moon-img-dark">
+                </div>
+                <div class="sun">
+                    <img src="./images/Sun_fill.svg" alt="Sun_fill" id="sun-img" >
+                </div>
+                <div class="sun_light">
+                    <img src="./images/Sun_fill_light.svg" alt="Sun_fill" id="sun-img-light" >
+                </div>
+            </div>
+          </div>
+         <div id="open-mobile-menu" class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+      <div class="content-container">
+            <p id="simpleText" class="poppins-medium ">😎  Simple way to communicate</p>
+            <p class="poppins-extrabold">Actions for Accessibility in Design</p>
+            <p class="poppins-semibold">The fastest way to build and deploy websites with resusable components.</p>
+            <div>
+               <div> <button>GET STARTED</button></div>
+                <a class="demo-link poppins-semibold">Get live demo</a>
+            </div>
+            <div class="done-container poppins-semibold">
+                <div>
+                    <img src="./images/Done_ring_round_fill.svg" alt="Done_ring_round_fill">
+                    <p>No credit card required</p>
+                </div>
+                <div>
+                    <img src="./images/Done_ring_round_fill.svg" alt="Done_ring_round_fill">
+                    <p>No software to install</p>
+                </div>
+            </div>
+        </div>
+      <div class="content-image">
+            <img src="./images/hero-image-simple-homepage.png" alt="hero-image-simple-homepage">
+      </div>
+    </div>
+    <div id="menu-mobile" class="nav-menu-mobile">
+       <nav>
+        <i id="close-mobile-menu"class="fa-solid fa-x"></i>
+        <ul class="poppins-semibold">
+            
+            <li>About us</li>
+            <li>Product</li>
+            <li>Resource</li>
+            <li>Contact</li>
+            <li>  
+                <div class="switch theme-toggle-action"   >
+                    <div class="moon">
+                        <img src="./images/Moon_fill_light.svg" alt="Moon_fill_light" id="moon-img">
+                    </div>
+                    <div class="moon_dark">
+                        <img src="./images/Moon_fill.svg" alt="Moon_fill_light" id="moon-img-dark">
+                    </div>
+                    <div class="sun">
+                        <img src="./images/Sun_fill.svg" alt="Sun_fill" id="sun-img" >
+                    </div>
+                    <div class="sun_light">
+                        <img src="./images/Sun_fill_light.svg" alt="Sun_fill" id="sun-img-light" >
+                    </div>
+                </div>
+            </li>
+        </ul>
+        
+       </nav>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
